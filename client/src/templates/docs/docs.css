@@ -1,0 +1,12 @@
+.MuiCardHeader-content .MuiCardHeader-title {
+  font-size: 15px;
+}
+
+.MuiCardHeader-root {
+  border-radius: 15px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

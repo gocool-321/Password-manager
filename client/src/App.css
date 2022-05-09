@@ -1,0 +1,92 @@
+.App-header {
+  height: 55px;
+  background: #3f51b5;
+  color: #fff;
+}
+.restpage {
+  min-height: calc(100vh - 64px);
+  position: relative;
+}
+.nav-container {
+  display: flex;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  height: 100%;
+}
+.app-brand {
+  font-size: 28px;
+}
+.app-brand-link {
+  color: #fff;
+  text-decoration: none;
+}
+.app-links ul li:hover {
+  background-color: rgb(10, 61, 156);
+}
+.nav-lists {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.nav-link {
+  margin: 0 10px;
+  padding: 12px;
+}
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.search-container {
+  height: 64px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.searchbar {
+  display: flex;
+  width: 100%;
+}
+.search-results {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.result_box {
+  padding: 1rem;
+  border-bottom: 1px solid #555;
+  width: 50%;
+  float: left;
+}
+.detail-item {
+  display: flex;
+  margin: 0 auto 10px;
+  align-items: center;
+  border: 1px solid #aaa;
+}
+.detail-item span:first-child {
+  width: 24%;
+  padding: 0.5rem;
+  background: #fff;
+}
+.detail-item span:last-child {
+  margin-left: 1rem;
+  display: flex;
+}
+.add-new-container {
+  padding: 1rem 0;
+}
+.add-new {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.add-new form {
+  max-width: 340px;
+}
+
+/* CUSTOME CSS */
